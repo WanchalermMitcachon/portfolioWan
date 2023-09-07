@@ -6,7 +6,7 @@ import projects from "../../projects";
 import { motion } from "framer-motion"
 import {fadeIn} from "../variants"
 
-import picture from '../assets/resume.png'
+import picture from '../assets/Resume.png'
 
 const Projects = () => {
   return (
