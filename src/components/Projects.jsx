@@ -6,6 +6,8 @@ import projects from "../../projects";
 import { motion } from "framer-motion"
 import {fadeIn} from "../variants"
 
+import picture from '../assets/resume.png'
+
 const Projects = () => {
   return (
     <div className="max-w-7xl mx-auto md:py-8 px-7" id="projects">
@@ -32,6 +34,7 @@ const Projects = () => {
           </motion.div>
         ))}
       </div>
+      <img src={picture} alt="" />
     </div>
   );
 };
